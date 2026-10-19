@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0a0e1a">
+  <title>Pago recibido — ML International Lawyers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: dark;
+      --dark: #0a0e1a;
+      --panel: #141a2b;
+      --gold: #d4a574;
+      --gold-light: #e8c9a4;
+      --text: #f2f0ec;
+      --muted: #b4b3b5;
+      --line: rgba(212, 165, 116, .22);
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      color: var(--text);
+      background: radial-gradient(ellipse at 50% 35%, #20253a 0%, var(--dark) 66%);
+      font-family: Inter, Arial, sans-serif;
+    }
+    header {
+      position: relative;
+      padding: 25px 24px 20px;
+      text-align: center;
+      border-bottom: 1px solid var(--line);
+    }
+    .logo { width: min(285px, 64vw); height: auto; }
+    .brand-line {
+      margin: 11px 0 0;
+      color: var(--gold);
+      font: 600 19px 'Playfair Display', Georgia, serif;
+      letter-spacing: 1.4px;
+    }
+    .languages {
+      position: absolute;
+      top: 25px;
+      right: 30px;
+      display: flex;
+      gap: 7px;
+    }
+    .lang {
+      padding: 7px 10px;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      color: var(--gold-light);
+      background: transparent;
+      font: 600 11px Inter, sans-serif;
+      cursor: pointer;
+    }
+    .lang[aria-pressed="true"] { color: var(--dark); background: var(--gold); border-color: var(--gold); }
+    main {
+      flex: 1;
+      display: grid;
+      place-items: center;
+      padding: 56px 20px;
+    }
+    .card {
+      width: min(100%, 620px);
+      padding: clamp(30px, 7vw, 58px);
+      text-align: center;
+      background: linear-gradient(145deg, rgba(26,31,53,.97), rgba(15,20,34,.98));
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: 0 28px 90px rgba(0,0,0,.42);
+    }
+    .check {
+      width: 76px;
+      height: 76px;
+      margin: 0 auto 25px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(212,165,116,.55);
+      border-radius: 50%;
+      color: var(--gold-light);
+      background: rgba(212,165,116,.10);
+      font-size: 38px;
+      line-height: 1;
+    }
+    h1 {
+      margin: 0 0 15px;
+      color: var(--gold-light);
+      font: 700 clamp(30px, 6vw, 43px)/1.15 'Playfair Display', Georgia, serif;
+    }
+    .lead {
+      max-width: 465px;
+      margin: 0 auto 27px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.8;
+    }
+    .next-step {
+      margin: 0 auto 27px;
+      padding: 17px 19px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--text);
+      background: rgba(10,14,26,.56);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    .ref-label {
+      margin: 0 0 8px;
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+    .reference {
+      display: inline-block;
+      max-width: 100%;
+      padding: 11px 14px;
+      border: 1px solid rgba(212,165,116,.18);
+      border-radius: 6px;
+      color: var(--gold-light);
+      background: rgba(10,14,26,.5);
+      font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+      overflow-wrap: anywhere;
+    }
+    .no-ref { color: var(--muted); font-size: 13px; }
+    footer {
+      padding: 22px 16px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      text-align: center;
+      font-size: 12px;
+    }
+    footer strong { color: var(--gold-light); font-weight: 600; }
+    @media (max-width: 620px) {
+      header { padding-top: 62px; }
+      .languages { top: 15px; right: 16px; }
+      main { padding: 34px 16px; }
+    }
+    @media print {
+      body { background: #0a0e1a !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .languages { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="languages" aria-label="Language">
+      <button class="lang" type="button" data-lang="es" aria-pressed="true">ES</button>
+      <button class="lang" type="button" data-lang="en" aria-pressed="false">EN</button>
+      <button class="lang" type="button" data-lang="fr" aria-pressed="false">FR</button>
+    </div>
+    <svg class="logo" viewBox="0 0 475 100" role="img" aria-label="ML International Lawyers" xmlns="http://www.w3.org/2000/svg">
+      <g fill="#d4a574">
+        <polygon points="20,80 35,20 45,20 45,80"/><polygon points="55,80 70,20 80,20 80,80"/>
+        <rect x="95" y="20" width="12" height="60"/><rect x="95" y="70" width="30" height="10"/>
+      </g>
+      <text x="140" y="35" font-family="Georgia,serif" font-size="16" fill="#d4a574" letter-spacing="1">Miguel López</text>
+      <text x="140" y="60" font-family="Georgia,serif" font-size="20" fill="#d4a574" font-weight="bold" letter-spacing="2">INTERNATIONAL</text>
+      <text x="140" y="82" font-family="Georgia,serif" font-size="20" fill="#d4a574" font-weight="bold" letter-spacing="2">LAWYERS</text>
+    </svg>
+    <p class="brand-line" data-copy="brand">Tu solución en inmigración</p>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="headline">
+      <div class="check" aria-hidden="true">✓</div>
+      <h1 id="headline">Pago recibido</h1>
+      <p class="lead" id="lead">Hemos recibido tu pago. Estamos terminando de registrar tu cita.</p>
+      <p class="next-step" id="next-step">Recibirás la confirmación de tu cita y los próximos pasos por WhatsApp y correo electrónico.</p>
+      <p class="ref-label" id="ref-label">Referencia de pago</p>
+      <code class="reference" id="reference" hidden></code>
+      <p class="no-ref" id="no-ref">No se encontró una referencia de sesión en este enlace.</p>
+    </section>
+  </main>
+
+  <footer><strong>ML International Lawyers</strong><br><span data-copy="footer">Atención internacional · Alicante</span></footer>
+
+  <script>
+    const copy = {
+      es: {
+        title: 'Pago recibido', lead: 'Hemos recibido tu pago. Estamos terminando de registrar tu cita.',
+        next: 'Recibirás la confirmación de tu cita y los próximos pasos por WhatsApp y correo electrónico.',
+        ref: 'Referencia de pago', missing: 'No se encontró una referencia de sesión en este enlace.',
+        brand: 'Tu solución en inmigración', footer: 'Atención internacional · Alicante', docTitle: 'Pago recibido — ML International Lawyers'
+      },
+      en: {
+        title: 'Payment received', lead: 'We have received your payment. We are completing your appointment registration.',
+        next: 'You will receive your appointment confirmation and next steps by WhatsApp and email.',
+        ref: 'Payment reference', missing: 'No session reference was found in this link.',
+        brand: 'Your immigration solution', footer: 'International legal services · Alicante', docTitle: 'Payment received — ML International Lawyers'
+      },
+      fr: {
+        title: 'Paiement reçu', lead: 'Nous avons reçu votre paiement. Nous terminons l’enregistrement de votre rendez-vous.',
+        next: 'Vous recevrez la confirmation du rendez-vous et les prochaines étapes par WhatsApp et par e-mail.',
+        ref: 'Référence de paiement', missing: 'Aucune référence de session n’a été trouvée dans ce lien.',
+        brand: 'Votre solution en immigration', footer: 'Services juridiques internationaux · Alicante', docTitle: 'Paiement reçu — ML International Lawyers'
+      }
+    };
+    const params = new URLSearchParams(window.location.search);
+    const sessionId = params.get('session_id');
+    const reference = document.getElementById('reference');
+    const missing = document.getElementById('no-ref');
+    if (sessionId) {
+      reference.textContent = sessionId;
+      reference.hidden = false;
+      missing.hidden = true;
+    }
+    function setLanguage(lang) {
+      const t = copy[lang] || copy.es;
+      document.documentElement.lang = lang;
+      document.title = t.docTitle;
+      document.getElementById('headline').textContent = t.title;
+      document.getElementById('lead').textContent = t.lead;
+      document.getElementById('next-step').textContent = t.next;
+      document.getElementById('ref-label').textContent = t.ref;
+      missing.textContent = t.missing;
+      document.querySelector('[data-copy="brand"]').textContent = t.brand;
+      document.querySelector('[data-copy="footer"]').textContent = t.footer;
+      document.querySelectorAll('.lang').forEach(button => {
+        button.setAttribute('aria-pressed', String(button.dataset.lang === lang));
+      });
+    }
+    document.querySelectorAll('.lang').forEach(button => {
+      button.addEventListener('click', () => setLanguage(button.dataset.lang));
+    });
+  </script>
+</body>
+</html>
